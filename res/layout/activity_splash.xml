@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="${packageName}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/image_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="logo"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/s_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_header"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/s_first"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/s_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/s_first"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/s_second"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/s_third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/s_second"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/s_third"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/s_forth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/s_third"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/s_forth"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/s_fifth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/s_forth"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/s_fifth"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/go_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/s_fifth"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_blue_button"
+        android:text="@string/go" />
+
+</RelativeLayout>

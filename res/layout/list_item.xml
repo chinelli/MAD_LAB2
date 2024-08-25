@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:orientation="horizontal"
+	android:padding="@dimen/ui_item_margin_reduce" >
+
+	<ImageView
+	    android:id="@+id/imgIcon"
+	    android:layout_width="50dip"
+	    android:layout_height="50dip"
+	    android:layout_centerVertical="true"
+	   	android:contentDescription="@string/logo_string" />  
+	   	
+	<LinearLayout   	
+	    android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:orientation="vertical"
+  		android:layout_toRightOf="@id/imgIcon"
+  		android:layout_marginLeft="5dip"
+  		android:layout_centerVertical="true" >
+  		
+  		<TextView 
+			android:id="@+id/TextRow1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@android:color/black"
+			android:textSize="15sp" />
+	
+		<TextView 
+			android:id="@+id/TextRow2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@android:color/black"
+			android:textSize="15sp" />
+	
+		<TextView 
+			android:id="@+id/TextRow3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@android:color/black"
+			android:textSize="15sp"/>
+  	</LinearLayout>
+
+	<RelativeLayout   	
+	    android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:orientation="vertical"
+  		android:layout_centerVertical="true"
+  		android:layout_alignParentRight="true" >
+		
+		<ImageButton
+		    android:id="@+id/btnAdd"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_centerHorizontal="true"
+		    android:src="@drawable/ic_action_add_cart"
+		    android:background="@drawable/custom_blue_button" />
+		
+		<Button
+		    android:id="@+id/btnDetail"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/detail_string"
+		    android:layout_centerHorizontal="true"
+		    android:textColor="@android:color/black"
+		    android:layout_below="@id/btnAdd"
+		    android:background="@drawable/custom_blue_button"/>  
+	</RelativeLayout>
+			
+</RelativeLayout>

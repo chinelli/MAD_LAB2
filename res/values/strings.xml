@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Furniture App</string>
+
+    <!-- Testi navigation drawer -->
+    <string name="menu1_string">Catalog</string>
+    <string name="menu1sub1_string">Genres</string>
+    <string name="menu1sub2_string">Product lines</string>
+    <string name="menu2_string">2D Designer</string>
+    <string name="menu3_string">Shopping cart</string>
+
+    <!-- Testi menu -->
+    <string name="menusaveTitle_string">Save</string>
+    <string name="menuAddCartTitle_string">Add to cart</string>
+    <string name="menuPreviewTitle_string">PDF preview</string>
+    <string name="menuShareTitle_string">Send PDF</string>
+
+    <!-- Testi hint -->
+    <string name="width_string">Room width</string>
+    <string name="height_string">Room height</string>
+
+    <!-- Testi contentDescription -->
+    <string name="open_string">Open</string>
+    <string name="close_string">Close</string>
+    <string name="logo_string">Logo</string>
+
+    <!-- Shown above search results when we receive a search request. -->
+    <plurals name="search_results">
+        <item quantity="one">%1$d result for \"%2$s\" </item>
+        <item quantity="other">%1$d results for \"%2$s\" </item>
+    </plurals>
+
+    <!-- Search failure message. -->
+    <string name="no_results">No results found for \"%s\"</string>
+
+    <!-- Testi mail -->
+    <string name="subject_mail_string">Furniture App - Room</string>
+    <string name="text_mail_string">Please find attached pdf with the room viewed from the App Furniture</string>
+
+    <!-- Messaggi Errore -->
+    <string name="msgE1_string">There are no email clients installed</string>
+    <string name="msgE2_string">There is no 2D display</string>
+	<string name="msgE3_string">Resolve collision before add new items</string>
+
+    <!-- Dialoghi -->
+    <string name="dialog1_title_string">Delete forniture</string>
+    <string name="dialog1_msg_string">Da dove vuoi eliminare l\'oggetto?</string>
+    <string name="dialog1_yes_string">Map only</string>
+    <string name="dialog1_no_string">Map and shopping cart</string>
+
+    <!-- Testi vari -->
+    <string name="detail_quote_string">OBJECT DETAILS</string>
+    <string name="added_cart_string">Object %s added to shopping cart</string>
+    <string name="send_mail_string">Send mail</string>
+    <string name="add_cart_string">Add to cart</string>
+    <string name="detail_string">Detail</string>
+    <string name="room_dim_string">Room Dimension (cm)</string>
+    <string name="descr_string">Description</string>
+    <string name="measure_string">Measure</string>
+    <string name="price_string">Price</string>
+    <string name="tot_string">Total</string>
+    <string name="cart_string">Shopping cart</string>
+    <string name="search_instructions">Use the search box to look up for an object</string>
+    <string name="search_string">Search</string>
+    <string name="search_nores_string">No objects were found for </string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="s_first">1. Choose your items from catalog</string>
+    <string name="s_second">2. Add them into your cart</string>
+    <string name="s_third">3. Insert dimensions of your room in 2D designer </string>
+    <string name="s_forth">4. Design your room!</string>
+    <string name="s_fifth">5. Check the quote and share the room with your friends!</string>
+    <string name="go">Go!</string>
+    <string name="negative_dim">Error, negative dimension!</string>
+    <string name="short_dim">Your room is too little, should be at least 200x200</string>
+    <string name="big_dim">Your room is too big, should be at max 2000x2000</string>
+    
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Furniture App</string>
+    
+    <!-- Testi navigation drawer -->
+    <string name="menu1_string">Catalogo</string>
+    <string name="menu1sub1_string">Generi</string>
+    <string name="menu1sub2_string">Linee prodotto</string>
+    <string name="menu2_string">2D Designer</string>
+    <string name="menu3_string">Carrello</string>
+    
+    <!-- Testi menu -->
+    <string name="menusaveTitle_string">Salva</string>
+    <string name="menuAddCartTitle_string">Aggiungi al carello</string>
+    <string name="menuPreviewTitle_string">Anteprima PDF</string>
+    <string name="menuShareTitle_string">Invia il PDF</string>
+    
+    <!-- Testi hint -->  
+    <string name="width_string">Larghezza stanza</string>
+    <string name="height_string">Altezza stanza</string>
+    
+	<!-- Testi contentDescription -->
+    <string name="open_string">Apri</string>
+    <string name="close_string">Chiudi</string>
+    <string name="logo_string">Logo</string>
+    
+    <!-- Messaggio del risultato di ricerca -->
+    <plurals name="search_results">
+      <item quantity="one">%1$d risultato per \"%2$s\" </item>
+      <item quantity="other">%1$d risultati per \"%2$s\" </item>
+    </plurals>
+
+    <!-- Messaggio ricerca fallita -->
+    <string name="no_results">Alcun oggetto trovato per \"%s\"</string>
+    
+    <!-- Testi mail -->
+    <string name="subject_mail_string">Furniture App - Stanza</string>
+    <string name="text_mail_string">Si allega pdf con la stanza visualizzata da Furniture App</string>
+    
+    <!-- Messaggi Errore -->
+    <string name="msgE1_string">Client di posta elettronica non installato</string>
+    <string name="msgE2_string">Non e\' presente alcuna visuale 2D</string>
+    <string name="msgE3_string">Risolvi le collisioni prima di aggiungere un oggetto</string>
+    
+    <!-- Dialoghi -->
+    <string name="dialog1_title_string">Elimina furniture</string>
+    <string name="dialog1_msg_string">Da dove vuoi eliminare il mobile?</string>
+    <string name="dialog1_yes_string">Solo mappa</string>
+    <string name="dialog1_no_string">Mappa e carrello</string>
+    
+   	<!-- Testi vari -->
+   	<string name="detail_quote_string">DETTAGLIO OGGETTI</string>
+   	<string name="added_cart_string">Oggetto %s aggiunto al carello</string>
+   	<string name="send_mail_string">Invia mail</string>
+   	<string name="add_cart_string">Aggiungi al carello</string>
+   	<string name="detail_string">Dettagli</string>
+	<string name="room_dim_string">Dimensione stanza (cm)</string>
+	<string name="descr_string">Descrizione</string>
+	<string name="measure_string">Misure</string>
+	<string name="price_string">Prezzo</string>
+	<string name="tot_string">Totale</string>
+	<string name="cart_string">Carrello</string>
+	<string name="search_instructions">Utilizza la casella di ricerca per cercare un oggetto</string>
+	<string name="search_string">Cerca</string>
+	<string name="search_nores_string">Non sono stati trovati oggetti per </string>
+	
+	<string name="s_first">1. Scegli i prodotti dal catalogo</string>
+    <string name="s_second">2. Aggiungili al carrello</string>
+    <string name="s_third">3. Inserisci le dimensioni della stanza nel 2D designer </string>
+    <string name="s_forth">4. Progetta la tua stanza!</string>
+    <string name="s_fifth">5. Controlla il preventivo e condividi il progetto con i tuoi amici!</string>
+	    <string name="go">Inizia!</string>
+        <string name="negative_dim">Errore,dimensioni negative!</string>
+    <string name="short_dim">La tua camera è troppo piccola, deve essere almeno 200x200</string>
+	<string name="big_dim">La tua camera è troppo grossa , deve essere al massimo 2000x2000</string>
+    
+</resources>

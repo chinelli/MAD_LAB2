@@ -1,0 +1,76 @@
+{
+    "products": [
+    {
+      "name": "Closet",
+      "description": "Closet with two doors",
+	  "price": 75,
+	  "productID": 51,
+	  "width": 150,
+	  "depth": 50,
+	  "genre": 5,
+	  "productLine": 1,
+	  "imagePath": Armadio.png,
+	  "mapPath": ArmadioMap.png
+    },
+    {
+      "name": "Couch",
+      "description": "3 seats couch, white color",
+	  "price": 309,
+	  "productID": 41,
+	  "width": 207,
+	  "depth": 88,
+	  "genre": 4,
+	  "productLine": 1,
+	  "imagePath": Divano.png,
+	  "mapPath": DivanoMap.png
+    },
+    {
+      "name": "Chair",
+      "description": "Armchair, birch veneer, silver color",
+	  "price": 50,
+	  "productID": 11,
+	  "width": 53,
+	  "depth": 50,
+	  "genre": 1,
+	  "productLine": 1,
+	  "imagePath": Sedia.png,
+	  "mapPath": SediaMap.png
+    },
+    {
+      "name": "Bed",
+      "description": "Black bed",
+	  "price": 100,
+	  "productID": 21,
+	  "width": 107,
+	  "depth": 210,
+	  "genre": 2,
+	  "productLine": 1,
+	  "imagePath": LettoSingolo.png,
+	  "mapPath": LettoSingoloMap.png
+    },
+    {
+      "name": "Double bed",
+      "description": "White bed with drawers",
+	  "price": 239,
+	  "productID": 22,
+	  "width": 175,
+	  "depth": 206,
+	  "genre": 2,
+	  "productLine": 1,
+	  "imagePath": LettoMatrimoniale.png,
+	  "mapPath": LettoMatrimonialeMap.png
+    },
+    {
+      "name": "Cooker",
+      "description": "Gas cooktop, white",
+	  "price": 70,
+	  "productID": 31,
+	  "width": 58,
+	  "depth": 58,
+	  "genre": 3,
+	  "productLine": 1,
+	  "imagePath": Fornello.png,
+	  "mapPath": FornelloMap.png
+    } 
+  ]
+}

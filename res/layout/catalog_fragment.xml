@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:paddingTop="@dimen/ui_item_margin_reduce" >
+	
+    <RelativeLayout 	
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:paddingLeft="@dimen/activity_horizontal_margin"
+		android:paddingRight="@dimen/activity_horizontal_margin" >
+        <ImageView
+	        android:id="@+id/ImageView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/ic_action_search"
+	        android:layout_centerVertical="true"
+	        android:contentDescription="@string/logo_string" />
+
+	    <EditText
+	        android:id="@+id/etSearch"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dip"
+	        android:hint="@string/search_string"
+	        android:layout_toRightOf="@+id/ImageView1" />
+    </RelativeLayout>
+	
+	<TextView
+    	android:id="@+id/tvInfo"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="15sp"
+        android:background="@android:drawable/title_bar"
+        android:text="@string/search_instructions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ui_item_margin_reduce" /> 
+            
+	<ExpandableListView
+    	android:id="@+id/elvType"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:groupIndicator="@android:color/transparent"
+        android:layout_marginTop="@dimen/ui_item_margin_reduce" />
+	        
+	<ListView     	
+	    android:id="@+id/lvSearch"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/ui_item_margin_reduce"
+        android:visibility="gone" />
+</LinearLayout>

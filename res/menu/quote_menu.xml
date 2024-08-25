@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+	
+	<item
+		android:id="@+id/share_menu" 
+		android:title="@string/menuShareTitle_string"
+		android:icon="@drawable/ic_action_share" 
+		android:showAsAction="ifRoom|withText"/>
+	
+	<item
+		android:id="@+id/preview_menu" 
+		android:title="@string/menuPreviewTitle_string"
+		android:icon="@drawable/ic_action_preview" 
+		android:showAsAction="ifRoom|withText"/>
+</menu>

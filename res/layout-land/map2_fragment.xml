@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+   	android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+    
+	<RelativeLayout
+	    android:layout_width="0dip"
+	  	android:layout_height="match_parent"
+	  	android:orientation="vertical"
+	  	android:layout_weight="1.75"
+	  	android:paddingTop="@dimen/ui_item_margin_reduce"
+	  	android:paddingRight="@dimen/ui_item_margin_reduce"
+	 	android:paddingBottom="@dimen/ui_item_margin_reduce" >
+
+		<it.polito.mad.mad_lab2.MapSurfaceView
+		    android:id="@+id/sfView"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent" />
+		
+		<LinearLayout 
+		    android:id="@+id/btnBar"
+		    android:layout_alignParentBottom="true"
+		    android:layout_height="60dp"
+		    android:layout_width="match_parent"
+		    style="?android:attr/buttonBarStyle"
+		    android:orientation="horizontal"
+		    android:background="@color/transparentBlack"
+		    android:visibility="gone" >
+
+		    <ImageButton
+		        android:id="@+id/btnRotateDx"
+		        android:layout_width="0dp"
+		        android:layout_height="match_parent"
+		        style="?android:attr/buttonBarButtonStyle"
+		        android:src="@drawable/ic_action_rotate_dx"
+		        android:contentDescription="@string/logo_string"
+		        android:layout_weight="1" />
+		    
+		    <ImageButton
+		        android:id="@+id/btnRotateSx"
+		        android:layout_width="0dp"
+		        android:layout_height="match_parent"
+		        style="?android:attr/buttonBarButtonStyle"
+		        android:contentDescription="@string/logo_string"
+		        android:src="@drawable/ic_action_rotate_sx"
+		        android:layout_weight="1" />
+		    
+		     <ImageButton
+		        android:id="@+id/btnDelete"
+		     	android:layout_width="0dp"
+		        android:layout_height="match_parent"
+		        style="?android:attr/buttonBarButtonStyle"
+		        android:layout_weight="1"
+		        android:contentDescription="@string/logo_string"
+				android:src="@drawable/ic_action_discard" />
+		</LinearLayout>	 	 	
+   	</RelativeLayout>
+           	
+	<View
+        android:layout_width="1dip"
+        android:layout_height="match_parent"
+        android:background="@color/apptheme_color"/> 
+			        	
+	<RelativeLayout
+	    android:layout_width="0dip"
+	  	android:layout_height="match_parent"
+	  	android:layout_weight="0.75" 
+	  	android:orientation="vertical"
+	 	android:paddingLeft="@dimen/ui_item_margin_reduce" >
+		
+		<GridView
+	        android:id="@+id/gvObject"
+	    	android:layout_height="match_parent"
+	    	android:layout_width="match_parent"
+	    	android:numColumns="2" />	
+	</RelativeLayout> 
+</LinearLayout>

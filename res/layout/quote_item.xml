@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+  	android:orientation="horizontal"
+	android:padding="@dimen/ui_item_margin_reduce" >
+	
+    <ImageView
+	    android:id="@+id/imgIcon"
+	    android:layout_width="50dip"
+	    android:layout_height="50dip"
+	    android:layout_centerVertical="true"
+	   	android:contentDescription="@string/logo_string" /> 
+    
+    <TextView
+    	android:id="@+id/tvObject"
+     	android:layout_width="wrap_content"
+     	android:layout_height="wrap_content"
+     	android:layout_toRightOf="@id/imgIcon"
+     	android:layout_marginLeft="10dip"
+     	android:textSize="15sp" />    
+     	
+    <TextView
+    	android:id="@+id/tvDescr"
+     	android:layout_width="wrap_content"
+     	android:layout_height="wrap_content"
+     	android:layout_toRightOf="@id/imgIcon"
+     	android:layout_below="@id/tvObject"
+     	android:layout_marginLeft="10dip"
+     	android:textSize="12sp" /> 
+     	      	
+	<ImageButton
+	    android:id="@+id/btnRemove"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerVertical="true"
+	    android:layout_alignParentRight="true"
+	    android:contentDescription="@string/logo_string"
+	    android:src="@drawable/ic_action_discard"
+	    android:background="@drawable/custom_blue_button" />     	    
+    
+    <TextView
+    	android:id="@+id/tvPrice"
+     	android:layout_width="wrap_content"
+     	android:layout_height="wrap_content"
+     	android:textSize="15sp"
+     	android:layout_marginRight="10dip"
+     	android:layout_centerVertical="true"
+     	android:layout_toLeftOf="@id/btnRemove" />    
+</RelativeLayout>

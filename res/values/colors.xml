@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="apptheme_color">#33b5e5</color>
+   	<color name="yellow_color">#fcd500</color>
+   	<color name="blu_color">#0655bc</color>
+	<color name="transparentBlack">#95000000</color>
+</resources>
